@@ -1,109 +1,13 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-.hover-card:hover {
-  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
-}
-
-.exercise-delete:hover {
-  cursor: pointer;
-}
-
-main {
-  min-height: 100vh;
-}
-
 body {
-  min-height: 100vh;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-#root {
-  min-height: 100vh;
-}
-
-.workout-screen {
-  min-height: 100vh;
-}
-
-.profile-screen {
-  min-height: 90vh;
-}
-
-@media (max-width: 768px) {
-  .modal-box {
-    width: 400px;
-  }
-}
-
-#navheader {
-  background-color: black;
-}
-
-#navBrand {
-  color: #00df9a;
-  font-weight: bold;
-}
-
-#Home {
-  min-height: 103vh;
-}
-
-.modal-close-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 10px;
-}
-
-.modal-close-icon:hover {
-  cursor: pointer;
-  opacity: 60%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-}
-
-.exercises-title {
-  font-size: 1rem;
-}
-
-@media (min-width: 1024px) {
-  .sideways-text {
-    display: inline;
-    padding-top: 12.5rem;
-    padding-bottom: 12.5rem;
-    padding-left: 0.25rem;
-    padding-right: 0.15rem;
-    border-radius: 10px;
-    font-size: 1.25rem;
-    font-weight: 400;
-    writing-mode: vertical-rl;
-    text-orientation: sideways;
-    transform: rotate(180deg);
-    margin-right: 1rem;
-  }
-}
-
-@media (max-width: 1024px) {
-  .sideways-text {
-    text-align: center;
-    padding-top: 0.25rem;
-    padding-bottom: 0.25rem;
-    padding-left: 0.25rem;
-    padding-right: 0.15rem;
-    border-radius: 10px;
-    font-size: 1.25rem;
-    font-weight: 400;
-  }
-}
-
-.small-flame {
-  padding: 0.25rem;
-}
-
-.small-days {
-  padding-left: 0.45rem;
-  padding-right: 0.45rem;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
